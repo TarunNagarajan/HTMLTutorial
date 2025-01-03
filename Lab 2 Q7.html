@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+
+@layer bgpink, bgpink;
+@layer bgpink {
+body {
+	background: pink;
+	}
+}
+
+@layer bgblue {
+body {
+	background: lightblue;
+	}	
+}
+
+
+
+.imger {
+	border: 1px solid black;
+	height: 120px;
+	width: 150px;
+	background: url(https://png.pngtree.com/thumb_back/fh260/background/20211116/pngtree-dark-blue-plain-background-for-design-template-image_916068.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+.modifier {
+	color: black;
+	text-align: center;
+.center {
+	text-align: center;
+	color: red;
+}
+
+
+
+
+a:link {
+	color: blue;
+}
+a:visited { 
+	color: green;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color:yellow;
+}
+
+.gallery-img:hover {transform: scale(1, 3);}
+body {background-color: powderblue;}
+h3   {color: SkyBlue; font-size: 300%}
+p    {color: blue; font-family: verdana; font-size: 160%; border: 2px solid blue;
+	padding: 30px;}
+</style>
+	<title> Cascading Style Sheets </title>
+</head>
+<body>
+	<p><b> Here is some bold text. </b></p>
+	<p><i> Here is some italicized text. </i></p> 
+
+	<p> This text uses a selector for applying styles, in the body. <b> Requirement 1 Complete</b></p>
+		<h3 align = "center"> Requirement 1 Complete (Use CSS Styling and Font) </h3>
+	
+	<p> Check out some resources for CSS Styling: <a href = "https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_link_more1"> CSS Referencer Point </a></p>
+		<h3 align = "center"> Requirement 4 Complete (Custom Color for Links) </h3>
+	
+	<p> I applied some CSS Styling Layers - one for lightblue and the other for pink, where pink is the topmost layer. </p>
+	<p> However, pink is only visible as pink was second in the <b>exact cascading order. </b></p>
+		<h3 align = "center"> Requirement 5 Complete (Work with layers) </h3>
+ 	
+	<h2 align = "center"> Using Background Contain to combine images and text. </h2>
+	<div class = "imger" align = "center">	
+		<h4 align = "center"> Requirement 3 Complete, by Using Background-Repeat Contain</h4>
+	</div>
+
+	<div id="gallery">
+    		<a href="#Requirement1"><img src="" class="gallery-img"></a>
+    		<a href="#Requirement2"><img src="" class="gallery-img"></a>
+    		<a href="#Requirement3"><img src="" class="gallery-img"></a>
+    		<a href="#Requirement4"><img src="" class="gallery-img"></a>
+    		<a href="#Requirement5"><img src="" class="gallery-img"></a>
+	</div>
+
+
+</body>
+</html>
